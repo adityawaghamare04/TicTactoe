@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css"> 
 </head>
 <body>
     <div class="container">
@@ -37,5 +38,12 @@
         </div>
     </div>
     <script src="script.js"></script>
+     <script>
+        function loadReactApp() {
+            const script = document.createElement("script");
+            script.src = "main.js"; 
+            document.body.appendChild(script);
+        }
+    </script>
 </body>
 </html>
