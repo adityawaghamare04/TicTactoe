@@ -1,14 +1,11 @@
-# 🤖 Tic-Tac-Toe AI (ReactJS)
+# 🤖 Tic-Tac-Toe AI
 
 A smart and responsive **Tic-Tac-Toe** game built using **ReactJS**, where you can play against an intelligent AI opponent trained with unbeatable logic.
-
----
 
 ## 🚀 Live Demo
 
 🎮 Play now: [TicTacToe with ai](https://ai-tictactoegame.vercel.app)
 
----
 
 ## 🧠 Features
 
@@ -19,7 +16,6 @@ A smart and responsive **Tic-Tac-Toe** game built using **ReactJS**, where you c
 - 📱 Fully responsive UI for all screen sizes
 - 🧼 Clean and intuitive interface
 
----
 
 ## 🛠️ Tech Stack
 
