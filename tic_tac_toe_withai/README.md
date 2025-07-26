@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# 🤖 Tic-Tac-Toe AI (ReactJS)
 
-This project was bootstrapped with [Create React App].
+A smart and responsive **Tic-Tac-Toe** game built using **ReactJS**, where you can play against an intelligent AI opponent trained with unbeatable logic.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
 
-### `npm start`
+🎮 Play now: [TicTacToe with ai](https://ai-tictactoegame.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Features
 
-### `npm test`
+- 🎯 Play against an unbeatable AI using the Minimax algorithm
+- 🧑‍🤝‍🧑 Play with a friend (two-player mode)
+- 🔁 Restart game button
+- 🧾 Real-time scoreboard (Win / Loss / Draw)
+- 📱 Fully responsive UI for all screen sizes
+- 🧼 Clean and intuitive interface
 
-Launches the test runner in the interactive watch mode.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer         | Technology               |
+|---------------|---------------------------|
+| Framework     | React.js (Vite or CRA)    |
+| Language      | JavaScript (ES6+)         |
+| State Mgmt    | React Hooks (`useState`)  |
+| Styling       | CSS Modules / Tailwind CSS |
+| AI Logic      | Minimax Algorithm         |
+| Deployment    | Vercel                    |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-### `npm run eject`
+## 📦 Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Node.js >= 14.x
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Steps
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/adityawaghamare04/TicTactoe.git
+cd tic_tac_toe_withai
 
-## Learn More
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run the app
+npm run dev    # or npm start if using CRA
 
-### Deployment
-### `npm run build` fails to minify
+# visit
+http://localhost:3000
 
-T
+```
+## 📂 Project Structure
+```
+tic_tac_toe_withai/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── Board.jsx
+│   │   └── Cell.jsx
+│   ├── utils/
+│   │   └── ai.js           # Minimax algorithm
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+│       └── App.css
+├── package.json
+└── README.md
+```
+## 🧠 How AI Works
+The AI uses the Minimax algorithm, which simulates every possible move in the game and picks the optimal move that maximizes its chances of winning while minimizing the player's chances.
+
+## 📄 License
+This project is licensed under the MIT License.
+
